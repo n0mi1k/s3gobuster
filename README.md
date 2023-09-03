@@ -1,4 +1,4 @@
-# s3buster
+# s3gobuster
 A fast S3 bucket suffix brute force tool to identify existing buckets. By default, DNS enumeration is used, which does not hit AWS's infrastructure. HTTP mode is also supported with the -http flag, but it is slower and noisier.
 
 ***NOTE**: This tool does not identify buckets in the us-east-1 region*
@@ -6,7 +6,7 @@ A fast S3 bucket suffix brute force tool to identify existing buckets. By defaul
 # Installation
 To install, just run the below command.
 ```
-go install github.com/n0mi1k/s3buster@latest
+go install github.com/n0mi1k/s3gobuster@latest
 ```
 
 ## Options
@@ -31,7 +31,7 @@ So if prefix "testbucket" is used and word is "prod", this is the test case "tes
 - HTTP brute force works but is noisy and much slower 
 
 ## Demo Run
-
+<img width="416" alt="CleanShot 2023-09-03 at 20 22 19@2x" src="https://github.com/n0mi1k/s3gobuster/assets/28621928/a99c9d5d-a589-4d6c-accf-8b9781c00c52">
 
 ## Disclaimer
 This tool is for educational and testing purposes only. Do not use it to exploit the vulnerability on any system that you do not own or have permission to test. The authors of this script are not responsible for any misuse or damage caused by its use.
