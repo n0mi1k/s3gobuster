@@ -22,7 +22,7 @@ Flags:
   -o        Filename to output results (OPTIONAL)
   -http     Enable HTTP bruteforce mode
 ```
-**How to Use s3buster Properly:**  
+**How to Use s3gobuster Properly:**  
 - Use s3wordlist.txt for a list of good suffixes, set a delimeter if you require.  
 For e.g, if delimiter "-" is set, here is the test format \<Prefix\>**-**\<Suffix\>  
 So if prefix "testbucket" is used and word is "prod", this is the test case "testbucket-prod"  
