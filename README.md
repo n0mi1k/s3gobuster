@@ -12,7 +12,7 @@ go install github.com/n0mi1k/s3gobuster@latest
 ## Options
 ```
 Usage:
-  s3buster -u [URL] [Other Flags]
+  s3gobuster -u [URL] [Other Flags]
 
 Flags:
   -n        Prefix to use (OPTIONAL)
